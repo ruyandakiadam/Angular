@@ -1,0 +1,26 @@
+
+TDD utPLSQL
+--
+ut.expect
+
+to_bo_like(a_mask=>'%rem#_%',escape_character=>'#')
+
+be_equal: data type'ı kontrol ediyor.
+
+ut.expect('a dog').to_equal('a dog');
+
+regexp_like(expression,pattern [,match parameter]);
+
+ut.expecy(a_actual=>'').to_match(a_pattern,a_modifier=>'i');
+
+ut.run();// bulunduğu schema içindeki tüm testleri çalıştırır.
+ut.run('SCHEMA');
+
+exec ut.run(ut_documentation_reporterr());
+
+Data validation hem front end hem backhandde olmalı
+
+SECURITY DEVELOPMENT
+--------------------
+
+sudo randomination
